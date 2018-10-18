@@ -114,7 +114,7 @@
         </output>
       <output name="preview">
         <range>
-          0 -1 
+          0 224 
         </range>
         <step>
           1 
@@ -350,11 +350,27 @@
         </path>
         
       </level>
+      <level id='2'>
+        "фон"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "/home/km2/Desktop/3д/фон.JPG"
+        </path>
+        
+      </level>
+      <level id='3'>
+        "фон_1"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras/фон.jpg"
+        </path>
+        
+      </level>
       
     </levels>
     <folder name="Cast" type="default">
       <levels>
-        <level id='1'/>
+        <level id='1'/><level id='3'/><level id='2'/>
       </levels>
       </folder>
     <folder name="Audio">
@@ -362,7 +378,42 @@
     </levelSet>
   <xsheet>
     <columns>
-      <levelColumn id='2'>
+      <levelColumn id='4'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 225 <level id='3'/>"-"0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='5'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='6'>
         
         <status>
           0 
@@ -373,12 +424,15 @@
           </cell>
           </cells>
         <fx>
-          <Toonz_columnFx id='3'>
+          <Toonz_columnFx id='7'>
             
             <params>
               </params>
             <ports>
               </ports>
+            <dagNodePos>
+              25005 25005 
+            </dagNodePos>
             <numberId>
               0 
             </numberId>
@@ -428,7 +482,7 @@
           </default>
           </sc>
         <nodePos>
-          1.234e+09 5.678e+09 
+          24500 25550 
         </nodePos>
         <camera>
           <cameraSize>
@@ -473,10 +527,73 @@
           </default>
           </sc>
         <nodePos>
-          1.234e+09 5.678e+09 
+          24500 25500 
         </nodePos>
         </pegbar>
       <pegbar id="Col1">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <S>
+              0 11.0246 74.6667 0 
+            </S>
+            <L>
+              <prev>
+                -11.1039 -74.6667 0 
+              </prev>
+              224 -11.1039 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <S>
+              0 -1.54662 74.6667 0 
+            </S>
+            <L>
+              <prev>
+                -6.50372 -74.6667 0 
+              </prev>
+              224 -6.50372 
+            </L>
+            </keyframes>
+          </y>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          1.234e+09 5.678e+09 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col2">
         <parent handle="B" id="Table" parentHandle="B">
           </parent>
         <isOpened>
@@ -551,7 +668,7 @@
           1 
         </cycle>
         <nodePos>
-          1.234e+09 5.678e+09 
+          24620 25500 
         </nodePos>
         </pegbar>
       <grid_dimension>
@@ -561,16 +678,22 @@
     <fxnodes>
       <terminal>
         <fxnode>
-          <Toonz_columnFx id='3'/>
+          <Toonz_columnFx id='7'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='5'/>
         </fxnode>
         </terminal>
       <xsheet>
-        <Toonz_xsheetFx id='4'>
+        <Toonz_xsheetFx id='8'>
           
           <params>
             </params>
           <ports>
             </ports>
+          <dagNodePos>
+            25120 25000 
+          </dagNodePos>
           <numberId>
             0 
           </numberId>
@@ -588,15 +711,18 @@
         
       </xsheet>
       <output>
-        <Toonz_outputFx id='5'>
+        <Toonz_outputFx id='9'>
           
           <params>
             </params>
           <ports>
             <source>
-              <Toonz_xsheetFx id='4'/>
+              <Toonz_xsheetFx id='8'/>
             </source>
             </ports>
+          <dagNodePos>
+            25235 24995 
+          </dagNodePos>
           <numberId>
             0 
           </numberId>
@@ -620,6 +746,6 @@
     </xsheet>
   <history>
     "| #    DATE:       Time:   MACHINE:    USER:           |"
-    "| #1   18 окт. 18   14:43               |"
+    "| #1   18 окт. 18   14:52               |"
   </history>
   </tnz>

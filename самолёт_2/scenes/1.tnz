@@ -395,6 +395,9 @@
               </params>
             <ports>
               </ports>
+            <dagNodePos>
+              25005 24955 
+            </dagNodePos>
             <numberId>
               0 
             </numberId>
@@ -590,7 +593,7 @@
           </default>
           </sc>
         <nodePos>
-          1.234e+09 5.678e+09 
+          24620 25450 
         </nodePos>
         </pegbar>
       <pegbar id="Col2">
@@ -746,6 +749,6 @@
     </xsheet>
   <history>
     "| #    DATE:       Time:   MACHINE:    USER:           |"
-    "| #1   18 окт. 18   14:52               |"
+    "| #1   18 окт. 18   14:57               |"
   </history>
   </tnz>

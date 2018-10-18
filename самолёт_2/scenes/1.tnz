@@ -1,4 +1,4 @@
-<tnz framecount="1" version="71.0">
+<tnz framecount="225" version="71.0">
   <generator>
     "OpenToonz 1.2.1"
   </generator>
@@ -369,7 +369,7 @@
         </status>
         <cells>
           <cell>
-            0 1 <level id='1'/>0001 0 
+            0 225 <level id='1'/>0001 0 
           </cell>
           </cells>
         <fx>
@@ -488,6 +488,50 @@
         <status>
           0 
         </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <S>
+              0 0 3.33333 0 
+            </S>
+            <S>
+              <prev>
+                0 -3.33333 0 
+              </prev>
+              10 0 3.33333 0 
+            </S>
+            <L>
+              <prev>
+                0 -3.66667 0 
+              </prev>
+              21 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <S>
+              0 0 3.33333 0 
+            </S>
+            <S>
+              <prev>
+                -0.675607 -3.33333 0 
+              </prev>
+              10 -0.675607 3.33333 0 
+            </S>
+            <L>
+              <prev>
+                0 -3.66667 0 
+              </prev>
+              21 0 
+            </L>
+            </keyframes>
+          </y>
         <sx>
           <default>
             1 
@@ -503,6 +547,9 @@
             1 
           </default>
           </sc>
+        <cycle>
+          1 
+        </cycle>
         <nodePos>
           1.234e+09 5.678e+09 
         </nodePos>
@@ -573,6 +620,6 @@
     </xsheet>
   <history>
     "| #    DATE:       Time:   MACHINE:    USER:           |"
-    "| #1   18 окт. 18   14:40               |"
+    "| #1   18 окт. 18   14:43               |"
   </history>
   </tnz>
